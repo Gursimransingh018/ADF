@@ -12,16 +12,4 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-  
-- task: AzureResourceManagerTemplateDeployment@3
-  inputs:
-    deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Free Trial(7ebc607f-7af4-4caf-ae82-74a4a49cfe15)'
-    subscriptionId: '7ebc607f-7af4-4caf-ae82-74a4a49cfe15'
-    action: 'Create Or Update Resource Group'
-    resourceGroupName: 'RG-ADF-Study'
-    location: 'East US'
-    templateLocation: 'URL of the file'
-    csmFileLink: 'https://github.com/Gursimransingh018/ADF/blob/adf_publish/ADF-DEV-Gursi/ARMTemplateForFactory.json'
-    csmParametersFileLink: 'https://github.com/Gursimransingh018/ADF/blob/adf_publish/ADF-DEV-Gursi/ARMTemplateParametersForFactory.json'
-    deploymentMode: 'Incremental'
+
