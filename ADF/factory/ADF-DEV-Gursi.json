@@ -1,0 +1,9 @@
+{
+	"name": "ADF-DEV-Gursi",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1a5ae312-b271-4636-92c5-3b8c940e807b",
+		"tenantId": "4b4395cb-9dc2-4873-b306-a96f69dc688a"
+	}
+}

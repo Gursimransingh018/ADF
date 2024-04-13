@@ -1,0 +1,19 @@
+{
+	"name": "ds_source_Gursi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedServiceSource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "ADF_TEST.jpg",
+				"container": "input"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
